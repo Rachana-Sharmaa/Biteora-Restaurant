@@ -12,9 +12,9 @@
 
 <body class="bg-white text-gray-900 dark:bg-gray-950 dark:text-white">
     <!-- ================= Header Section ================== -->
-    <header>
-        <div class="w-full max-w-7xl min-h-screen m-auto px-4 md:px-6 lg:px-8">
-            <div class="px-4">
+    <header class="shadow-md h-24 dark:shadow-gray-800/50">
+        <div class="w-full max-w-7xl m-auto px-4 md:px-6 lg:px-8">
+            <div class="px-4 ">
                 <div class="text-end">
                     <button id="theme-toggle" type="button"
                         class="rounded-full p-2 text-xl text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-800 cursor-pointer">
@@ -23,21 +23,21 @@
                 </div>
                 <div class="flex justify-between items-center">
                     <div class="flex items-center">
-                        <img class="w-6 sm:w-10 md:w-12" src="./images/fries-and-burger.png" alt="burger-pic" />
-                        <h4 class="text-xl md:text-2xl uppercase font-bold px-1"><span
+                        <img class="w-6 sm:w-8 md:w-10" src="./images/fries-and-burger.png" alt="burger-pic" />
+                        <h4 class="text-xl md:text-3xl uppercase font-bold px-1"><span
                                 class="text-[#F29E10]">Bite</span>ora
                         </h4>
                     </div>
                     <!-- -------- Nav Bar ---------- -->
-                    <nav class=" hidden md:flex lg:gap-8 md:gap-4 text-[16px] font-medium ">
+                    <nav class=" hidden md:flex lg:gap-8 md:gap-4 text-[16px] font-medium group-hover:text-[#F29D13]">
                         <a class="text-[#F29E10]" href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Blog</a>
-                        <a href="#">Gallery</a>
-                        <a href="#">Contact</a>
+                        <a class="hover:text-[#F29E10] transition-colors duration-300" href="#about">About</a>
+                        <a class="hover:text-[#F29E10] transition-colors duration-300" href="#blog">Blog</a>
+                        <a class="hover:text-[#F29E10] transition-colors duration-300" href="#gallery">Gallery</a>
+                        <a class="hover:text-[#F29E10] transition-colors duration-300" href="#contact">Contact</a>
                     </nav>
                     <button
-                        class="px-3 py-1.5 md:px-6 md:py-2.5 text-white bg-[#F29E10] hover:bg-[#eebc66] rounded-3xl cursor-pointer">Book
+                        class="px-2 py-1.5 md:px-6 md:py-2.5 text-white bg-[#F29E10] hover:bg-[#eebc66] rounded-3xl cursor-pointer">Book
                         a
                         table</button>
                 </div>
